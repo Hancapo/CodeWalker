@@ -4182,6 +4182,16 @@ namespace CodeWalker
             Settings.Default.RPFExplorerStartFolder = CurrentFolder.Path;
             OptionsStartInFolderValueMenu.Text = string.IsNullOrEmpty(CurrentFolder.Path) ? "(Default)" : CurrentFolder.Path;
         }
+
+        private void holaPabloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void holaPabloToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

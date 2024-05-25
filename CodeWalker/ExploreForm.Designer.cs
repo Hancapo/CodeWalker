@@ -158,6 +158,7 @@
             this.OpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.FolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.VSExtender = new WeifenLuo.WinFormsUI.Docking.VisualStudioToolStripExtender(this.components);
+            this.holaPabloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MainMenu.SuspendLayout();
             this.MainToolbar.SuspendLayout();
             this.MainStatusBar.SuspendLayout();
@@ -498,7 +499,8 @@
             this.ToolsAudioExplorerMenu,
             this.ToolsRpfBrowserMenu,
             this.ToolsJenkGenMenu,
-            this.ToolsJenkIndMenu});
+            this.ToolsJenkIndMenu,
+            this.holaPabloToolStripMenuItem});
             this.ToolsMenu.Name = "ToolsMenu";
             this.ToolsMenu.Size = new System.Drawing.Size(46, 20);
             this.ToolsMenu.Text = "Tools";
@@ -550,7 +552,7 @@
             // OptionsStartInEditModeMenu
             // 
             this.OptionsStartInEditModeMenu.Name = "OptionsStartInEditModeMenu";
-            this.OptionsStartInEditModeMenu.Size = new System.Drawing.Size(168, 22);
+            this.OptionsStartInEditModeMenu.Size = new System.Drawing.Size(180, 22);
             this.OptionsStartInEditModeMenu.Text = "Start in Edit mode";
             this.OptionsStartInEditModeMenu.Click += new System.EventHandler(this.OptionsStartInEditModeMenu_Click);
             // 
@@ -562,7 +564,7 @@
             this.OptionsStartInFolderDefaultMenu,
             this.OptionsStartInFolderCurrentMenu});
             this.OptionsStartInFolderMenu.Name = "OptionsStartInFolderMenu";
-            this.OptionsStartInFolderMenu.Size = new System.Drawing.Size(168, 22);
+            this.OptionsStartInFolderMenu.Size = new System.Drawing.Size(180, 22);
             this.OptionsStartInFolderMenu.Text = "Start in Folder";
             // 
             // OptionsStartInFolderValueMenu
@@ -1308,6 +1310,13 @@
             // 
             this.VSExtender.DefaultRenderer = null;
             // 
+            // holaPabloToolStripMenuItem
+            // 
+            this.holaPabloToolStripMenuItem.Name = "holaPabloToolStripMenuItem";
+            this.holaPabloToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.holaPabloToolStripMenuItem.Text = "Hola Pablo";
+            this.holaPabloToolStripMenuItem.Click += new System.EventHandler(this.holaPabloToolStripMenuItem_Click_1);
+            // 
             // ExploreForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1476,5 +1485,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator13;
         private System.Windows.Forms.ToolStripMenuItem ListContextNewYtdFileMenu;
         private System.Windows.Forms.ToolStripMenuItem ToolsAudioExplorerMenu;
+        private System.Windows.Forms.ToolStripMenuItem holaPabloToolStripMenuItem;
     }
 }
